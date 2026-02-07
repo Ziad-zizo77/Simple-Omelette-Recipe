@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Recipe page
 
 ![Design preview for the Recipe page coding challenge](./preview.jpg)
@@ -98,3 +99,8 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# Simple-Omelette-Recipe
+An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+>>>>>>> dc6fab2180b514b2289515ce15d4ecf2ed3210c7
+# Simple-Omelette-Recipe
