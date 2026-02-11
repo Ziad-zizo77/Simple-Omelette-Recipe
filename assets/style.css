@@ -27,8 +27,9 @@ body {
   font-family: var(--outfit);
 }
 .container {
-  width: 600px;
-  margin: 50px auto;
+  width: 37.5rem;
+  margin-block: clamp(1.5rem, 5vw, 3rem);
+  margin-inline: auto;
   border-radius: 20px;
   background-color: var(--white);
 }
@@ -73,7 +74,7 @@ body {
   color: var(--stone-600);
 }
 .time-list li {
-  padding-left: 20px;
+  padding-inline-start: 20px;
 }
 .time-list li span {
   font-weight: 700;
@@ -97,14 +98,14 @@ section ul {
 section ol {
   padding: 20px;
 }
-section li {
+li {
   color: var(--stone-600);
   padding-left: 20px;
 }
-section li::marker {
+li::marker {
   color: var(--rose-800);
 }
-section li span {
+li span {
   color: var(--stone-900);
   font-weight: 700;
 }
@@ -138,12 +139,12 @@ dd {
   color: var(--brown-800);
   font-weight: 600;
 }
-@media (max-width: 600px) {
+@media (max-width: 37.5em) {
   .container {
     width: 100%;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 25em) {
   .container {
     border-radius: 0;
     margin: 0;
